@@ -6,5 +6,5 @@ public abstract class Client {
 	public abstract void processData(); //process file detail
 	public abstract void printData(); //print file detail
  
-    
+     
 }
