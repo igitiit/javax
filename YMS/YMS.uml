@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_pdZLMIv_Ee6Eq_eDBU1q8g" name="YMS">
+    <eAnnotations xmi:id="_pjaToIv_Ee6Eq_eDBU1q8g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_pjdW8Iv_Ee6Eq_eDBU1q8g" source="codegen">
+        <details xmi:id="_pjfMIIv_Ee6Eq_eDBU1q8g" key="codegenDirectory" value="/YMS/src"/>
+        <details xmi:id="_p3dRAIv_Ee6Eq_eDBU1q8g" key="AssociatedSourceCode" value="/YMS/src/Client.java;22369928/1;/YMS/src/YMSRecords.java;3262985884/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_pvQXQIv_Ee6Eq_eDBU1q8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_pvQ-UIv_Ee6Eq_eDBU1q8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_pvQ-UYv_Ee6Eq_eDBU1q8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_pvQ-Uov_Ee6Eq_eDBU1q8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_pvQ-U4v_Ee6Eq_eDBU1q8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_pvQ-VIv_Ee6Eq_eDBU1q8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_pvQ-VYv_Ee6Eq_eDBU1q8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_pvQ-Vov_Ee6Eq_eDBU1q8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_pvRlYIv_Ee6Eq_eDBU1q8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_puQRsIv_Ee6Eq_eDBU1q8g" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_puSG4Iv_Ee6Eq_eDBU1q8g" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pzO4UIv_Ee6Eq_eDBU1q8g" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pzTw0Iv_Ee6Eq_eDBU1q8g" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pzU-8Iv_Ee6Eq_eDBU1q8g" name="FileReader"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_puhXcIv_Ee6Eq_eDBU1q8g" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pzWNEYv_Ee6Eq_eDBU1q8g" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pzW0IYv_Ee6Eq_eDBU1q8g" name="Arrays"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_pzW0I4v_Ee6Eq_eDBU1q8g" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pu-qcIv_Ee6Eq_eDBU1q8g" name="Client" isAbstract="true">
+      <ownedOperation xmi:id="_pvHNUIv_Ee6Eq_eDBU1q8g" name="readData" isAbstract="true"/>
+      <ownedOperation xmi:id="_pvKQoIv_Ee6Eq_eDBU1q8g" name="processData" isAbstract="true"/>
+      <ownedOperation xmi:id="_pvKQoYv_Ee6Eq_eDBU1q8g" name="printData" isAbstract="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pvK3sIv_Ee6Eq_eDBU1q8g" name="YMSRecords">
+      <generalization xmi:id="_pzZ3cIv_Ee6Eq_eDBU1q8g" general="_pu-qcIv_Ee6Eq_eDBU1q8g"/>
+      <ownedAttribute xmi:id="_pzev8Iv_Ee6Eq_eDBU1q8g" name="robjs" visibility="package" isStatic="true" type="_pvK3sIv_Ee6Eq_eDBU1q8g" association="_pz9REIv_Ee6Eq_eDBU1q8g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pzhMMIv_Ee6Eq_eDBU1q8g" value="*"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_pzjocIv_Ee6Eq_eDBU1q8g" value="new YMSRecords[18]"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pzldoIv_Ee6Eq_eDBU1q8g" name="array" visibility="package" isStatic="true" type="_pzWNEYv_Ee6Eq_eDBU1q8g" association="_pz-fMIv_Ee6Eq_eDBU1q8g">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_pzmEsYv_Ee6Eq_eDBU1q8g" value="new ArrayList&lt;>()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pzsyYIv_Ee6Eq_eDBU1q8g" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pzuAgIv_Ee6Eq_eDBU1q8g" name="rooms">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pzuAgYv_Ee6Eq_eDBU1q8g" name="days">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pzuAgov_Ee6Eq_eDBU1q8g" name="cume" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pzv1sIv_Ee6Eq_eDBU1q8g" name="readData" specification="_pvTakIv_Ee6Eq_eDBU1q8g">
+        <language>java</language>
+        <body>BufferedReader br;
+		try {
+			br = new BufferedReader(new FileReader(new File(&quot;data.csv&quot;)));
+
+			String line;
+			while ((line = br.readLine()) != null) {
+				array.add(Arrays.asList(line.split(&quot;,&quot;)));
+				//System.out.println(line);
+			}
+		} catch (Exception e) {
+			System.out.println(&quot;There was a problem loading the file&quot;);
+		}
+  processData();
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pzy5AIv_Ee6Eq_eDBU1q8g" name="processData" specification="_pvUBoIv_Ee6Eq_eDBU1q8g">
+        <language>java</language>
+        <body>int idx=0;
+		    //create loop to grab each array index containing a list of values
+		    //and PASS that data into your record objects' setters 
+		 
+		    /*get room demand 
+		    evaluate prob. based on fares*/
+		  
+		    for (List&lt;String> rowData: array){
+		      	//initialize array of objects
+		    	robjs[idx] = new YMSRecords();
+		    	//call setters below 
+		    	robjs[idx].setId(rowData.get(0)); //get first column
+		    	robjs[idx].setRooms(rowData.get(1)); //get second column
+		    	robjs[idx].setDays(rowData.get(2)); 
+		    	robjs[idx].setCume(Double.parseDouble(rowData.get(3))); 
+		    	 
+		         
+		    idx++;
+		    }
+	    printData();
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pzzgEIv_Ee6Eq_eDBU1q8g" name="printData" specification="_pvUBoYv_Ee6Eq_eDBU1q8g">
+        <language>java</language>
+        <body>//local vars set up for calcs
+		    int book_limit;
+		    double full_fare,discount_fare,optimal_pct;
+		    String protection_limit = null;
+		    double curCume, oldCume = 0;
+			book_limit = 210;
+			full_fare = 159.0;
+			discount_fare = 105.0;
+			
+		    optimal_pct = (full_fare-discount_fare)/full_fare;
+	 
+		    //Set heading
+		    System.out.println(&quot;Historic demand:\n\nID\t\tRooms\t\tDays\t\tCume&quot;);
+		
+		    //create for loop and grab each record objects' data onto the console
+		    for (int i=0;i&lt;18;i++){
+						
+		    	String s=String.format(&quot;%s\t\t%s\t\t%s\t\t%.2f&quot;, robjs[i].getId(),
+					robjs[i].getRooms(),robjs[i].getDays(),robjs[i].getCume());
+		    	System.out.println(s);
+		    	
+		    	//check point for protection level
+		    	curCume = robjs[i].getCume();
+		    	if (curCume>optimal_pct &amp;&amp; optimal_pct > oldCume)  
+		    		protection_limit=robjs[i].getRooms();
+		    	 
+			    oldCume=curCume; //swap
+		}
+      System.out.println(&quot;\nReserve (protection) limit to be set at: &quot; + protection_limit);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pz1VQIv_Ee6Eq_eDBU1q8g" name="getCume" specification="_pvUosIv_Ee6Eq_eDBU1q8g">
+        <ownedParameter xmi:id="_pz18UIv_Ee6Eq_eDBU1q8g" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return cume;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pz2jYIv_Ee6Eq_eDBU1q8g" name="setCume" specification="_pvY6IIv_Ee6Eq_eDBU1q8g">
+        <ownedParameter xmi:id="_pz2jYYv_Ee6Eq_eDBU1q8g" name="cume">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.cume = cume;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pz3KcIv_Ee6Eq_eDBU1q8g" name="main" specification="_pvaIQIv_Ee6Eq_eDBU1q8g">
+        <ownedParameter xmi:id="_pz3KcYv_Ee6Eq_eDBU1q8g" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pz3Kcov_Ee6Eq_eDBU1q8g" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>YMSRecords ymsr = new YMSRecords();
+		ymsr.readData();
+
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_pvTakIv_Ee6Eq_eDBU1q8g" name="readData" method="_pzv1sIv_Ee6Eq_eDBU1q8g"/>
+      <ownedOperation xmi:id="_pvUBoIv_Ee6Eq_eDBU1q8g" name="processData" method="_pzy5AIv_Ee6Eq_eDBU1q8g"/>
+      <ownedOperation xmi:id="_pvUBoYv_Ee6Eq_eDBU1q8g" name="printData" method="_pzzgEIv_Ee6Eq_eDBU1q8g"/>
+      <ownedOperation xmi:id="_pvUosIv_Ee6Eq_eDBU1q8g" name="getCume" method="_pz1VQIv_Ee6Eq_eDBU1q8g">
+        <ownedParameter xmi:id="_pvUosYv_Ee6Eq_eDBU1q8g" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pvY6IIv_Ee6Eq_eDBU1q8g" name="setCume" method="_pz2jYIv_Ee6Eq_eDBU1q8g">
+        <ownedParameter xmi:id="_pvY6IYv_Ee6Eq_eDBU1q8g" name="cume">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pvaIQIv_Ee6Eq_eDBU1q8g" name="main" isStatic="true" method="_pz3KcIv_Ee6Eq_eDBU1q8g">
+        <ownedParameter xmi:id="_pvaIQYv_Ee6Eq_eDBU1q8g" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pvaIQov_Ee6Eq_eDBU1q8g" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pz9REIv_Ee6Eq_eDBU1q8g" name="" memberEnd="_pz9REYv_Ee6Eq_eDBU1q8g _pzev8Iv_Ee6Eq_eDBU1q8g">
+      <ownedEnd xmi:id="_pz9REYv_Ee6Eq_eDBU1q8g" name="" type="_pvK3sIv_Ee6Eq_eDBU1q8g" association="_pz9REIv_Ee6Eq_eDBU1q8g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pz-fMIv_Ee6Eq_eDBU1q8g" name="" memberEnd="_pz-fMYv_Ee6Eq_eDBU1q8g _pzldoIv_Ee6Eq_eDBU1q8g">
+      <ownedEnd xmi:id="_pz-fMYv_Ee6Eq_eDBU1q8g" name="" type="_pvK3sIv_Ee6Eq_eDBU1q8g" association="_pz-fMIv_Ee6Eq_eDBU1q8g"/>
+    </packagedElement>
+    <profileApplication xmi:id="_pjucsIv_Ee6Eq_eDBU1q8g">
+      <eAnnotations xmi:id="_pjyuIIv_Ee6Eq_eDBU1q8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_pj-UUIv_Ee6Eq_eDBU1q8g" base_Package="_pdZLMIv_Ee6Eq_eDBU1q8g">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_pzSisIv_Ee6Eq_eDBU1q8g" base_Element="_pzO4UIv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:Reference xmi:id="_pzUX4Iv_Ee6Eq_eDBU1q8g" base_Element="_pzTw0Iv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:Reference xmi:id="_pzWNEIv_Ee6Eq_eDBU1q8g" base_Element="_pzU-8Iv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:Reference xmi:id="_pzW0IIv_Ee6Eq_eDBU1q8g" base_Element="_pzWNEYv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:Reference xmi:id="_pzW0Iov_Ee6Eq_eDBU1q8g" base_Element="_pzW0IYv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:Reference xmi:id="_pzYCQIv_Ee6Eq_eDBU1q8g" base_Element="_pzW0I4v_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:Array xmi:id="_pzhzQIv_Ee6Eq_eDBU1q8g" dimensions="1" base_Element="_pzev8Iv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pzk2kIv_Ee6Eq_eDBU1q8g" base_Element="_pzev8Iv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:Generics xmi:id="_pzmEsIv_Ee6Eq_eDBU1q8g" genericsValue="List&lt;String>" base_Element="_pzldoIv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pzrkQIv_Ee6Eq_eDBU1q8g" base_Element="_pzldoIv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pzunkIv_Ee6Eq_eDBU1q8g" base_Element="_pzuAgov_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:Reference xmi:id="_pz94IIv_Ee6Eq_eDBU1q8g" base_Element="_pz9REIv_Ee6Eq_eDBU1q8g"/>
+  <UMLLabProfile:Reference xmi:id="_pz-fMov_Ee6Eq_eDBU1q8g" base_Element="_pz-fMIv_Ee6Eq_eDBU1q8g"/>
+</xmi:XMI>
